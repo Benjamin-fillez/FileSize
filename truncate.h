@@ -6,5 +6,5 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-int change_file_size(char *file_name,int size);
-size_t check_error(char *file_name); 
+int ChangeFileSize(char *file_name,int size);
+size_t getFileSize(char *file_name); 
